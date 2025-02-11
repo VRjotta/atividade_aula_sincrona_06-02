@@ -3,14 +3,33 @@
 ## Descrição do Projeto
 Este projeto tem como objetivo controlar um servomotor utilizando PWM com o Raspberry Pi Pico W, dentro da plataforma BitDogLab. A GPIO 22 foi configurada para gerar um sinal PWM de 50Hz para posicionar o servo em diferentes ângulos. Além disso, o LED RGB conectado à GPIO 12 foi utilizado para observar seu comportamento conforme a movimentação do servo.
 
-## Requisitos do Projeto
+### Pré-requisitos para abrir o projeto
 
-1. Utilizar o ambiente de desenvolvimento VS Code.
-2. Escrever os códigos na linguagem C, utilizando o Kit de Desenvolvimento de Software Pico SDK.
-4. Criar um repositório no GitHub para versionamento e submissão da atividade.
-5. Implementar testes básicos para garantir o funcionamento correto do código.
-6. Adicionar um arquivo README.md com instruções de uso do programa.
-7. Produzir um vídeo ensaio de até 3 minutos apresentando a solução e os resultados, incluindo o link no README.md.
+## Para configurar o ambiente de desenvolvimento, siga as instruções abaixo:
+
+1. Instalar o Visual Studio Code
+Acesse o site oficial e faça o download: Visual Studio Code.
+Instale o programa e configure conforme necessário.
+Adicione a extensão Wokwi e faça sua integração com o VS CODE para simular o hardware.
+3. Instalar o CMake
+Baixe o instalador do CMake: CMake.
+Durante a instalação, marque a opção "Add CMake to the system PATH".
+Conclua a instalação.
+4. Instalar o GCC para ARM
+Baixe o compilador ARM GNU em: GCC ARM Toolchain.
+Após a instalação, adicione o diretório do executável ao PATH:
+Vá para Configurações do Sistema > Variáveis de Ambiente.
+Edite a variável Path e adicione:
+C:\Program Files (x86)\Arm GNU Toolchain\<versão>\bin
+Substitua <versão> pela versão instalada.
+5. Instalar o Git
+Faça o download: Git para Windows.
+Instale o programa e configure-o.
+Abra o terminal (Git Bash ou CMD) e configure seu nome e e-mail:
+git config --global user.name "Seu Nome"
+git config --global user.email "seu.email@exemplo.com"
+6. Instale o Raspberry Pi Pico SDK
+Faça o download aqui: Pico Setup Windows.
 
 ## Implementação
 
