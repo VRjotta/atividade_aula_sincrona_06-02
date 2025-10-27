@@ -65,5 +65,6 @@ O vídeo ensaio com a apresentação da solução e os resultados obtidos pode s
 [Inserir Link do Vídeo Aqui]
 
 ## Autor
-Jotta
+João Pedro de Souza
+
 
